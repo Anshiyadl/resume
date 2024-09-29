@@ -1,0 +1,74 @@
+/*mliti task*/
+.ul{
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+}
+.a{
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.bg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main-button{
+    text-decoration: none;
+    list-style-type: none;
+    background-color: #26D48C;
+    font-size: 20px;
+    padding: 15px 50px;
+    border-radius: 50px;
+}
+
+.sc{
+    color: #1842B6;
+}
+
+
+.cts{
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    position: absolute;
+    background-color: #1842B6;    
+
+    h2{
+        color: #26D48C;
+        margin-bottom: 10px;
+    }
+
+}
+
+.b2-box:hover{
+
+    .cts{
+        z-index: 2;
+    }
+}
+
+
+.sc-but{
+    text-decoration: none;
+    background-color: #1842B6;
+    font-size: 20px;
+    padding: 15px 50px;
+}
+
+
+
+
+.a, .li{
+    text-decoration: none;
+    list-style: none;
+}
